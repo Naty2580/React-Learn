@@ -1,0 +1,18 @@
+
+.co{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+}
+.co input{
+    margin-bottom: 150px;
+}
+.star-filled {
+    color: #fff700
+ }
+ 
+ .star {
+    color: #fff
+ }

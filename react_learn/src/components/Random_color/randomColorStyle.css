@@ -1,0 +1,85 @@
+.container {
+display: flex;
+width: 85vw;
+height: 95vh;
+flex-direction: column;
+background-color: var(--bgroot);
+position: fixed;
+} 
+
+.header {
+    padding-top: 1.5%;
+    height: 10vh;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header span{
+    width: 85%;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.generator {
+    padding: 1%;
+    height:70vh;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    position: relative;
+}
+
+.generator button {
+    margin-top: auto;
+    align-self: flex-end;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5vw;
+    min-width: 100px;
+    min-height: 100px;
+    height:5vw;
+    border-radius: 50%;
+    padding: 1%;
+}
+.generator button:active {
+    background-color: black;
+}
+
+  
+.selector {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+    width:75vw;
+    display: flex;
+    justify-content: space-between;
+}
+.selector button {
+
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.selector p {
+    color: var(--bgroot);
+    font-weight: 600;
+    align-self: center;
+
+}
+.selector button:active {
+    background-color: black;
+}
+#hex {
+    border-radius: 10%;
+    border: var(--selbtnborhex)
+}
+#rgb {
+    border-radius: 10%;
+    border: var(--selbtnborrgb)
+}

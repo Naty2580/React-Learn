@@ -1,0 +1,30 @@
+const data = [
+    "Aziel", "Aisling", "Auberon", "Artemis", "Alaska", "Avalon", "Aether", "Aztec", "Abyssinian", "Armadillo",
+    "Bodhi", "Bexley", "Balthazar", "Brisbane", "Borealis", "Basilisk", "Barbados", "Babylon", "Bengal", "Boreas",
+    "Caelum", "Cyrene", "Cressida", "Caspian", "Cayenne", "Cicada", "Calypso", "Cairn", "Cernunnos", "Catalonia",
+    "Daxton", "Dione", "Draven", "Dakar", "Daedalus", "Dodo", "Damascus", "Dahlia", "Dragon", "Demerara",
+    "Elowen", "Ezio", "Eulalia", "Everest", "Eclipse", "Echidna", "Eden", "Elbrus", "Erythraea", "Euphrates",
+    "Faelan", "Freesia", "Fynnian", "Fjord", "Fennec", "Falcon", "Florence", "Finisterre", "Fukuoka", "Fairbanks",
+    "Gavriel", "Galadriel", "Genevra", "Guadalupe", "Giza", "Gryphon", "Gibraltar", "Glacier", "Ganges", "Galah",
+    "Huxley", "Hyacinth", "Hadriel", "Himalaya", "Havana", "Hawk", "Hecate", "Helios", "Houston", "Helsinki",
+    "Isolde", "Idris", "Icarus", "Iguazu", "Indigo", "Ibex", "Istanbul", "Icarian", "Ionian", "Iquitos",
+    "Jorah", "Jovan", "Junia", "Java", "Jasper", "Jaguar", "Jericho", "Jotunheim", "Jupiter", "Jorvik",
+    "Kaelith", "Kairo", "Kalista", "Kyoto", "Kodiak", "Kudu", "Kilimanjaro", "Kraken", "Kalahari", "Kosovo",
+    "Lysander", "Leocadia", "Lucian", "Labrador", "Lynx", "Louvre", "Lazarus", "Lhotse", "Lemuria", "Luxor",
+    "Maelis", "Miro", "Marcellus", "Machu", "Marmot", "Mistral", "Mecca", "Mekong", "Minerva", "Mizar",
+    "Nereus", "Nyx", "Noctis", "Nairobi", "Narcissus", "Numbat", "Norilsk", "Nashira", "Nefertari", "Nebula",
+    "Ozymandias", "Orielle", "Oleander", "Olympus", "Orion", "Ocelot", "Osiris", "Oaxaca", "Oberon", "Onyx",
+    "Persephone", "Paxton", "Priam", "Patagonia", "Pegasus", "Pangolin", "Petra", "Phoenix", "Pompeii", "Pleiades",
+    "Quinlan", "Quorra", "Quixote", "Quebec", "Quasar", "Quetzal", "Qatar", "Qinghai", "Quartz", "Quintana",
+    "Rune", "Rhiannon", "Ronan", "Rio", "Rafflesia", "Raven", "Rhodes", "Rajasthan", "Ragnar", "Ravello",
+    "Soren", "Seraphina", "Solene", "Sahara", "Sequoia", "Sphinx", "Stockholm", "Syracuse", "Svalbard", "Selene",
+    "Tiberius", "Thalassa", "Tavian", "Tuscany", "Tigris", "Tarsier", "Titan", "Tasmania", "Tikal", "Tiber",
+    "Ulric", "Ulyssa", "Urian", "Utah", "Utopia", "Uakari", "Ural", "Umbria", "Ursa", "Uzbekistan",
+    "Vesper", "Valerian", "Vaila", "Venice", "Vesuvius", "Vulture", "Verona", "Vanuatu", "Vega", "Vienna",
+    "Wren", "Wolfgang", "Wynter", "Waikiki", "Wombat", "Windsor", "Winchester", "Wadi", "Wellington", "Wyvern",
+    "Xanthe", "Xavian", "Xylia", "Xian", "Xerxes", "Xenon", "Xiphias", "Xibalba", "Xeranthemum", "Xenophanes",
+    "Yara", "Yorick", "Yseult", "Yellowstone", "Ymir", "Yak", "Yokohama", "Yosemite", "Yggdrasil", "Yerevan",
+    "Zephyr", "Zafira", "Zorion", "Zanzibar", "Zion", "Zebu", "Zircon", "Zeus", "Zambezi", "Ziggurat"
+  ]
+
+  export default data;

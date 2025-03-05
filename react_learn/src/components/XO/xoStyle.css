@@ -1,0 +1,93 @@
+.btns {
+    border: 1px solid white;
+    background-color: rgba(250, 250, 250, 0.1);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 700;
+    cursor: pointer;
+    color: cyan;
+}
+.btns:hover {
+    color: cyan;
+    background-color: rgba(250, 250, 250, 0.2);;
+
+  }
+  .xocont {
+    /* border: 1px solid coral; */
+    width: 495px;
+    height: 495px;
+    display:grid;
+    grid-template-columns: repeat(3,165px);
+    grid-template-rows: repeat(3,165px);
+    grid-column: 3;
+
+  }
+
+.xostart {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #1a1a2e;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 84vw;
+    height: 100vh;
+}
+
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95%;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.welcome-container h1 {
+    font-size: 2.5rem;
+    text-shadow: 3px 3px 10px rgba(255, 255, 255, 0.8);
+    animation: bounce 2s infinite;
+}
+
+.rules-container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.rules-container p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.start-button {
+    background: linear-gradient(45deg, #ff4e50, #f9d423);
+    color: black;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.3s;
+    font-weight: bold;
+}
+
+.start-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
